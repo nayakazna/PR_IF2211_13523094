@@ -62,6 +62,10 @@ pub fn parse_txt(file_path: &str) -> io::Result<Graph> {
         for j in 0..num_cities {
             if i < j {
                 graph.add_edge(i, j, distances[j]);
+            } else if i == j {
+                graph.add_edge(i, j, 0); 
+            } else if i != j && distances[j] == 0 {
+                graph.add_edge(i, j, u32::MAX);
             }
         }
     }
