@@ -59,8 +59,11 @@ pub fn parse_txt(file_path: &str) -> io::Result<Graph> {
             ));
         }
 
-        // tambahkan jarak ke graf
-        graph.add_distances(i, distances);
+        for j in 0..num_cities {
+            if i < j {
+                graph.add_edge(i, j, distances[j]);
+            }
+        }
     }
 
     Ok(graph)
