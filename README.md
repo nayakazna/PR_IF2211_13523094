@@ -1,6 +1,6 @@
 # Travelling Salesman Problem (TSP) Solver in Rust
-[![en](https://img.shields.io/badge/lang-en-red.svg)](https://github.com/nayakazna/PR_IF2211_13523094/blob/master/README.id.md)
-[![id](https://img.shields.io/badge/lang-id-red.svg)](https://github.com/nayakazna/PR_IF2211_13523094/blob/master/README.md)
+[![en](https://img.shields.io/badge/lang-en-red.svg)](https://github.com/nayakazna/PR_IF2211_13523094/blob/master/README.md)
+[![id](https://img.shields.io/badge/lang-id-red.svg)](https://github.com/nayakazna/PR_IF2211_13523094/blob/master/README.id.md)
 
 > Ikon di atas menunjukkan bahasa yang digunakan dalam README ini dan dapat diklik untuk beralih ke versi bahasa yang sesuai.
 
