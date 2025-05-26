@@ -26,6 +26,7 @@ impl Graph {
     }
 
     // mendapatkan bobot sisi antara dua kota
+    #[allow(dead_code)]
     pub fn get_weight(&self, from: usize, to: usize) -> Option<u32> {
         if from < self.num_cities && to < self.num_cities {
             self.adj_matrix[from][to]
@@ -34,8 +35,15 @@ impl Graph {
         }
     }
 
+    // mendapatkan matriks adjacency
+    #[allow(dead_code)]
+    pub fn get_adjacency_matrix(&self) -> &Vec<Vec<Option<u32>>> {
+        &self.adj_matrix
+    }
+
+    // mendapatkan jumlah kota
+    #[allow(dead_code)]
     pub fn get_num_cities(&self) -> usize {
         self.num_cities
     }
 }
-
