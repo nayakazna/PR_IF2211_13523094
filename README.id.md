@@ -81,5 +81,9 @@ Waktu eksekusi: 17.95µs
 =========================================
 ```
 
+## Kasus Uji
+![Hasil Eksekusi](./test/output/tc1.png)
+![Hasil Eksekusi](./test/output/tc2.png)
+
 ## Pembuat
 - Z. Nayaka Athadiansyah (13523094)

@@ -83,5 +83,9 @@ Waktu eksekusi: 17.95µs
 =========================================
 ```
 
+## Test Cases
+![Hasil Eksekusi](./test/output/tc1.png)
+![Hasil Eksekusi](./test/output/tc2.png)
+
 ## Author
 - Z. Nayaka Athadiansyah (13523094)
