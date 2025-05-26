@@ -50,5 +50,36 @@ Konfigurasi `.txt` ini disimpan dalam direktori `test`.
    ```
 4. Enjoy :D
 
+## Contoh
+Dengan file input `test/tc1.txt` yang berisi:
+
+```
+4
+0 10 15 20
+10 0 35 25
+15 35 0 30
+20 25 30 0
+```
+Program ini akan memberikan output:
+
+```
+Membaca graf dari: ./test/tc1.txt
+Graf berhasil dibaca. Jumlah kota: 4
+Menjalankan TSP dengan node awal: 0
+=========================================
+            HASIL TSP SOLVER             
+=========================================
+Input file: ./test/tc1.txt
+Jumlah kota: 4
+Node awal: 0
+-----------------------------------------
+Tur terpendek ditemukan!
+Biaya (cost): 80
+Urutan kunjungan: 0 -> 2 -> 3 -> 1 -> 0
+-----------------------------------------
+Waktu eksekusi: 17.95µs
+=========================================
+```
+
 ## Pembuat
 - Z. Nayaka Athadiansyah (13523094)
